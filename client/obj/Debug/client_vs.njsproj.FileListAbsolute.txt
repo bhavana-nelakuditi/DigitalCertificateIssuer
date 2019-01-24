@@ -1,0 +1,3 @@
+C:\Users\bhava\Desktop\Blockchain\client\intkey-client-js\obj\Debug\client_vs.njsprojAssemblyReference.cache
+C:\Users\bhava\Desktop\Blockchain\client\intkey-client-js\obj\Debug\client_vs.njsproj.CoreCompileInputs.cache
+C:\Users\bhava\Desktop\Blockchain\client\intkey-client-js\bin\Microsoft.NodejsTools.WebRole.dll

@@ -1,0 +1,63 @@
+<html>
+<style>
+  input[type=text], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 25%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #c6e2bf;
+  padding: 20px;
+
+}
+h1{
+  font-family:  fantasy;
+  font-display: fallback;
+}
+</style>
+
+<body>
+  <hr>
+  <h1 align="center"> CERTIFICATE GENERATION </h1>
+  <hr>
+  <div>
+    <form action="http://127.0.0.1:8081/return_response" method="POST" align="center">
+
+      NAME: <input type="text" name="names"> <br>
+      Id : <input type="text" name="id"> <br>
+      Date: <input type="text" name="date"> <br> <br>
+      <input type="submit" value="Submit">
+    </form>
+    <br>
+    <hr>
+    <form action="http://127.0.0.1:8081/return_transactions" method="GET" align="center">
+      <input type="submit" value="SEE ALL YOUR CERTIFICATES">
+    </form>
+    <br>
+    <hr>
+
+  </div>
+</body>
+
+</html>

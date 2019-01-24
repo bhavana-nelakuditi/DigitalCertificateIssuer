@@ -1,0 +1,73 @@
+
+<html>
+<style>
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #c6e2bf;
+  padding: 20px;
+}
+h1{
+  font-family: fantasy;
+  font-display: fallback;
+}
+</style>
+<body>
+  <hr><h1 align="center"> LOGIN PAGE </h1> <br> <hr>
+  <div>
+    <form action = "http://127.0.0.1:8081/cert_gen" method = "POST" align = "center">
+       Enter your USERNAME  <br> <input type = "text" name = "username" required placeholder="user1">  <br>
+       Enter your PASSWORD  <br> <input type = "password" name = "password" required placeholder="hello"> <br>
+       <hr>
+       <br>
+
+         <button type="submit">Login</button>
+    </form>
+  </div>
+
+</body>
+</html>
