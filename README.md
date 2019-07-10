@@ -1,4 +1,4 @@
-# DigitalCertificateIssuer
+# Digital Certificate Issuer
 
 Module Client contains the Client side application for basic sawtooth implementation of a certificate issuer for real estate purposes.
 
